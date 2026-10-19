@@ -199,7 +199,7 @@ export const STATUS_STEPS: {
 export const CLINICS_MASTER: Clinic[] = [
   {
     "id": "TA-GINZA",
-    "name": "銀座TAクリニック",
+    "name": "銀座TAクリニック様",
     "nameEn": "GINZA TA CLINIC",
     "doctor": "嶽崎 元彦",
     "doctorEn": "MOTOHIKO TAKESAKI",
@@ -213,7 +213,7 @@ export const CLINICS_MASTER: Clinic[] = [
   },
   {
     "id": "TA-SHINJUKU",
-    "name": "新宿TAクリニック",
+    "name": "新宿TAクリニック様",
     "nameEn": "SHINJUKU TA CLINIC",
     "doctor": "嶽崎 元彦",
     "doctorEn": "MOTOHIKO TAKESAKI",
@@ -329,7 +329,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "10月受注分",
       "orderDate": "2026/10/16 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -399,7 +399,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "10月受注分",
       "orderDate": "2026/10/16 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -462,7 +462,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "10月受注分",
       "orderDate": "2026/10/09 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -516,17 +516,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/10/19 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了（※Mirror Cannula MC-25070C・Mirror Cannula MC-27040C・Mirror Cannula MC-30025C は別送予定）",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了（※Mirror Cannula MC-25070C・Mirror Cannula MC-27040C・Mirror Cannula MC-30025C は別送予定）",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/10/19 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -588,7 +588,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "9月受注分",
       "orderDate": "2026/09/23 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -628,17 +628,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/10/05 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/10/05 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -698,7 +698,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "9月受注分",
       "orderDate": "2026/09/10 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -745,17 +745,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/10/05 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/10/05 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -815,7 +815,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "9月受注分",
       "orderDate": "2026/09/04 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -862,17 +862,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/10/02 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/10/02 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -934,7 +934,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "8月受注分",
       "orderDate": "2026/08/19 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -967,17 +967,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/09/01 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/09/01 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -1037,7 +1037,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "8月受注分",
       "orderDate": "2026/08/10 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -1084,17 +1084,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/08/22 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/08/22 08:30",
           "location": "FedEx 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "FedEx 配達員"
         },
         {
@@ -1156,7 +1156,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "7月受注分",
       "orderDate": "2026/07/28 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -1217,17 +1217,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/08/09 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/08/09 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -1287,7 +1287,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "7月受注分",
       "orderDate": "2026/07/22 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -1327,17 +1327,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/08/31 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/08/31 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -1397,7 +1397,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "7月受注分",
       "orderDate": "2026/07/15 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -1472,17 +1472,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/09/03 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/09/03 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -1542,7 +1542,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "7月受注分",
       "orderDate": "2026/07/09 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -1582,17 +1582,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/08/21 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/08/21 08:30",
           "location": "FedEx 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "FedEx 配達員"
         },
         {
@@ -1654,7 +1654,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "6月受注分",
       "orderDate": "2026/06/29 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -1715,17 +1715,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/08/26 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/08/26 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -1785,7 +1785,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "6月受注分",
       "orderDate": "2026/06/23 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -1832,17 +1832,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/08/22 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/08/22 08:30",
           "location": "FedEx 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "FedEx 配達員"
         },
         {
@@ -1902,7 +1902,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "6月受注分",
       "orderDate": "2026/06/18 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -1949,17 +1949,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/08/26 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/08/26 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -2019,7 +2019,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "6月受注分",
       "orderDate": "2026/06/11 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -2080,17 +2080,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/06/28 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/06/28 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -2150,7 +2150,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "6月受注分",
       "orderDate": "2026/06/09 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -2218,17 +2218,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/08/17 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/08/17 08:30",
           "location": "FedEx 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "FedEx 配達員"
         },
         {
@@ -2290,7 +2290,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "5月受注分",
       "orderDate": "2026/05/21 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -2351,17 +2351,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/08/22 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/08/22 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -2421,7 +2421,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "5月受注分",
       "orderDate": "2026/05/19 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -2510,17 +2510,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/07/20 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/07/20 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -2582,7 +2582,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "4月受注分",
       "orderDate": "2026/04/30 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -2657,17 +2657,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/06/29 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/06/29 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -2727,7 +2727,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "4月受注分",
       "orderDate": "2026/04/27 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -2767,17 +2767,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/05/12 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/05/12 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -2837,7 +2837,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "4月受注分",
       "orderDate": "2026/04/23 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -2919,17 +2919,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/06/24 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/06/24 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -2989,7 +2989,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "4月受注分",
       "orderDate": "2026/04/14 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -3050,17 +3050,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/05/15 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/05/15 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -3120,7 +3120,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "4月受注分",
       "orderDate": "2026/04/06 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -3174,17 +3174,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/05/30 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/05/30 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -3246,7 +3246,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "3月受注分",
       "orderDate": "2026/03/31 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -3307,17 +3307,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/05/26 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/05/26 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -3377,7 +3377,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "3月受注分",
       "orderDate": "2026/03/24 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -3431,17 +3431,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/05/15 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/05/15 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -3501,7 +3501,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "3月受注分",
       "orderDate": "2026/03/17 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -3555,17 +3555,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/05/30 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/05/30 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -3625,7 +3625,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "3月受注分",
       "orderDate": "2026/03/12 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -3679,17 +3679,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/06/29 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/06/29 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -3749,7 +3749,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "3月受注分",
       "orderDate": "2026/03/05 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -3803,17 +3803,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/05/30 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/05/30 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -3873,7 +3873,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "3月受注分",
       "orderDate": "2026/03/02 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -3906,17 +3906,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/03/15 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/03/15 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -3978,7 +3978,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "2月受注分",
       "orderDate": "2026/02/26 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -4032,17 +4032,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/04/21 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/04/21 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -4102,7 +4102,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "2月受注分",
       "orderDate": "2026/02/19 10:00",
       "clinicId": "TA-SHINJUKU",
-      "clinicName": "新宿TAクリニック",
+      "clinicName": "新宿TAクリニック様",
       "clinicNameEn": "SHINJUKU TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -4156,17 +4156,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/04/14 11:20",
-          "location": "新宿TAクリニック",
+          "location": "新宿TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "新宿TAクリニック 受付にて受領完了（※PINK GLOW（サンプル） は別送予定）",
-          "operator": "新宿TAクリニック 受付"
+          "desc": "新宿TAクリニック様 受付にて受領完了（※PINK GLOW（サンプル） は別送予定）",
+          "operator": "新宿TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/04/14 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが新宿TAクリニックへ配達中",
+          "desc": "担当ドライバーが新宿TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {
@@ -4226,7 +4226,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "batchName": "2月受注分",
       "orderDate": "2026/02/12 10:00",
       "clinicId": "TA-GINZA",
-      "clinicName": "銀座TAクリニック",
+      "clinicName": "銀座TAクリニック様",
       "clinicNameEn": "GINZA TA CLINIC",
       "doctor": "嶽崎 元彦",
       "doctorEn": "MOTOHIKO TAKESAKI",
@@ -4266,17 +4266,17 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
         {
           "step": "DELIVERED",
           "time": "2026/03/01 11:20",
-          "location": "銀座TAクリニック",
+          "location": "銀座TAクリニック様",
           "title": "クリニック到着・受領完了",
-          "desc": "銀座TAクリニック 受付にて受領完了",
-          "operator": "銀座TAクリニック 受付"
+          "desc": "銀座TAクリニック様 受付にて受領完了",
+          "operator": "銀座TAクリニック様 受付"
         },
         {
           "step": "OUT_FOR_DELIVERY",
           "time": "2026/03/01 08:30",
           "location": "DHL 東京サービスセンター",
           "title": "国内配達中",
-          "desc": "担当ドライバーが銀座TAクリニックへ配達中",
+          "desc": "担当ドライバーが銀座TAクリニック様へ配達中",
           "operator": "DHL 配達員"
         },
         {

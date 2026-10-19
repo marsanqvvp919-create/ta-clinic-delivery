@@ -274,12 +274,12 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
               </div>
               <div>
                 <div className="text-xs font-bold text-white">🏥 各クリニック納品</div>
-                <div className="text-[10px] text-emerald-300">新宿・銀座 2院 検品受領</div>
+                <div className="text-[10px] text-emerald-300">銀座TAクリニック様 検品受領</div>
               </div>
             </div>
 
             <div className="mt-2.5 pt-2 border-t border-slate-700/60 text-[10px] text-slate-300 leading-tight">
-              新宿・銀座 各院受付にて受領完了
+              銀座TAクリニック様 受付にて受領完了
             </div>
           </div>
         </div>
@@ -293,7 +293,7 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
               <span className="text-slate-400 text-[11px]">北海道・東北・関東・中部</span>
             </div>
             <span className="font-mono font-bold text-blue-300 bg-blue-950 px-2 py-0.5 rounded border border-blue-800">
-              2院 / DHL・FedEx
+              銀座1院 / DHL・FedEx
             </span>
           </div>
 

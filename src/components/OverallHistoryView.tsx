@@ -172,7 +172,7 @@ export const OverallHistoryView: React.FC<OverallHistoryViewProps> = ({
               {CLINICS_MASTER.length} <span className="text-sm font-normal text-slate-500">院</span>
             </div>
             <div className="text-[11px] text-slate-500 mt-1">
-              新宿・銀座
+              銀座TAクリニック様
             </div>
           </div>
           <div className="w-12 h-12 rounded-xl bg-slate-100 text-slate-700 border border-slate-200 flex items-center justify-center shrink-0">

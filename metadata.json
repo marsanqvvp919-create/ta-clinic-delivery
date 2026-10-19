@@ -1,6 +1,6 @@
 {
   "name": "TAクリニック 配送・受注ステータス管理システム",
-  "description": "楽々販売の受注・出荷実績を元にした、新宿TAクリニック・銀座TAクリニック宛（SG倉庫/韓国→DHL・FedEx→成田→国内配送）配送ステータス追跡ダッシュボード",
+  "description": "楽々販売の受注・出荷実績を元にした、銀座TAクリニック宛（SG倉庫/韓国→DHL・FedEx→成田→国内配送）配送ステータス追跡ダッシュボード",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

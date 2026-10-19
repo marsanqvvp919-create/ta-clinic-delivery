@@ -46,7 +46,7 @@ export const Header: React.FC<HeaderProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-[11px] font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200/60">
-                  TAクリニック様（新宿・銀座）
+                  銀座TAクリニック様
                 </span>
                 <span className="text-[11px] font-semibold text-slate-500">
                   商品: 美容医療薬剤

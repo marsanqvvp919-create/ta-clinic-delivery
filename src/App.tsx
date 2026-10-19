@@ -188,7 +188,7 @@ export default function App() {
             <span>SG倉庫・韓国仕入先 ➔ DHL / FedEx国際空輸 ➔ 成田通関 ➔ 国内配送</span>
           </div>
           <div className="text-slate-400">
-            楽々販売 受注・出荷実績連動（新宿TA・銀座TA）
+            楽々販売 受注・出荷実績連動（銀座TAクリニック様）
           </div>
         </div>
       </footer>

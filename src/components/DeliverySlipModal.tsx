@@ -87,7 +87,7 @@ export const DeliverySlipModal: React.FC<DeliverySlipModalProps> = ({
                     発行日: {order.orderDate.split(' ')[0]}
                   </div>
                   <div className="text-slate-500 mt-0.5">
-                    発注便名: {order.batchName}
+                    受注ID: {order.invoiceNo}
                   </div>
                 </div>
               </div>

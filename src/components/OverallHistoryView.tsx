@@ -152,7 +152,7 @@ export const OverallHistoryView: React.FC<OverallHistoryViewProps> = ({
 
         <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-xs flex items-center justify-between">
           <div>
-            <div className="text-xs font-semibold text-slate-500">対象発注便（アーカイブ）</div>
+            <div className="text-xs font-semibold text-slate-500">対象受注月（アーカイブ）</div>
             <div className="text-2xl font-black text-slate-900 mt-1 font-mono">
               {totalBatchesCount} <span className="text-sm font-normal text-slate-500">便</span>
             </div>
@@ -185,10 +185,10 @@ export const OverallHistoryView: React.FC<OverallHistoryViewProps> = ({
       <div className="bg-white rounded-2xl border border-slate-200 shadow-xs p-5 sm:p-6 space-y-4">
         <div>
           <h2 className="text-base sm:text-lg font-bold text-slate-900">
-            月別一括発注便ごとの実績一覧（履歴含む）
+            受注月ごとの実績一覧（履歴含む）
           </h2>
           <p className="text-xs text-slate-500 mt-0.5">
-            各月のご発注便カードをクリックすると、その便の詳細な明細・ステータス画面に切り替わります。
+            各月のカードをクリックすると、その月の受注明細・ステータス画面に切り替わります。
           </p>
         </div>
 
@@ -206,7 +206,7 @@ export const OverallHistoryView: React.FC<OverallHistoryViewProps> = ({
               >
                 <div>
                   <div className="flex items-center justify-between text-xs">
-                    <span className="font-mono text-slate-500 font-semibold group-hover:text-blue-600 transition-colors">{batch.orderDate} ご発注</span>
+                    <span className="font-mono text-slate-500 font-semibold group-hover:text-blue-600 transition-colors">初回受注 {batch.orderDate}</span>
                     <span
                       className={`px-2 py-0.5 rounded text-[10px] font-bold ${
                         batch.isCurrent
@@ -231,7 +231,7 @@ export const OverallHistoryView: React.FC<OverallHistoryViewProps> = ({
                   </div>
                   <div className="text-right">
                     <span className="text-slate-400 text-[10px] block">配達状況</span>
-                    <span className="font-bold text-emerald-700">{bDelivered} / {batchOrders.length} 院完了</span>
+                    <span className="font-bold text-emerald-700">{bDelivered} / {batchOrders.length} 件完了</span>
                   </div>
                 </div>
               </div>

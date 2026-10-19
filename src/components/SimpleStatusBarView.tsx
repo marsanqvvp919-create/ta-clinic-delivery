@@ -231,7 +231,7 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
               </span>
             </div>
             <h2 className="text-base sm:text-lg font-bold text-slate-900 mt-0.5">
-              一括発注 配送進捗ステータス
+              受注別 配送進捗ステータス
             </h2>
           </div>
 
@@ -241,13 +241,13 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
             </span>
             <span className="text-slate-300">|</span>
             <span className="text-emerald-700 font-bold">
-              配達完了: {deliveredCount} 院
+              配達完了: {deliveredCount} 件
             </span>
             {inTransitCount > 0 && (
               <>
                 <span className="text-slate-300">|</span>
                 <span className="text-blue-700 font-bold">
-                  配送中: {inTransitCount} 院
+                  配送中: {inTransitCount} 件
                 </span>
               </>
             )}

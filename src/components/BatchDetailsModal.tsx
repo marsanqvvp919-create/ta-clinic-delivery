@@ -40,7 +40,7 @@ export const BatchDetailsModal: React.FC<BatchDetailsModalProps> = ({
   const batchInfo = BATCHES_LIST.find((b) => b.id === batchId) || {
     id: batchId,
     name: batchId,
-    orderDate: 'ご発注日',
+    orderDate: '受注日',
     description: '',
     isCurrent: false,
   };
@@ -90,7 +90,7 @@ export const BatchDetailsModal: React.FC<BatchDetailsModalProps> = ({
           <div>
             <div className="flex items-center gap-2 text-xs text-sky-200 font-mono">
               <Calendar className="w-3.5 h-3.5" />
-              <span>{batchInfo.orderDate} ご発注</span>
+              <span>初回受注 {batchInfo.orderDate}</span>
               <span>•</span>
               <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${batchInfo.isCurrent ? 'bg-sky-500/30 text-sky-200 border border-sky-400/30' : 'bg-emerald-500/30 text-emerald-200 border border-emerald-400/30'}`}>
                 {batchInfo.isCurrent ? '進行中' : '完了便'}
@@ -126,11 +126,11 @@ export const BatchDetailsModal: React.FC<BatchDetailsModalProps> = ({
             </span>
             <span className="text-slate-300">|</span>
             <span className="font-bold text-slate-700">
-              対象クリニック: <span className="text-slate-900 font-bold">{orders.length} 院</span>
+              受注件数: <span className="text-slate-900 font-bold">{orders.length} 件</span>
             </span>
             <span className="text-slate-300">|</span>
             <span className="font-bold text-emerald-700">
-              配達完了: {deliveredCount} / {orders.length} 院
+              配達完了: {deliveredCount} / {orders.length} 件
             </span>
           </div>
 
@@ -256,7 +256,7 @@ export const BatchDetailsModal: React.FC<BatchDetailsModalProps> = ({
 
         {/* Footer */}
         <div className="p-4 bg-white border-t border-slate-200 flex items-center justify-between text-xs text-slate-500 shrink-0">
-          <span>表示件数: {filteredOrders.length} 院 / 全 {orders.length} 院</span>
+          <span>表示件数: {filteredOrders.length} 件 / 全 {orders.length} 件</span>
           <button
             onClick={onClose}
             className="px-4 py-2 bg-slate-800 hover:bg-slate-900 text-white font-bold rounded-xl transition-all cursor-pointer shadow-md"

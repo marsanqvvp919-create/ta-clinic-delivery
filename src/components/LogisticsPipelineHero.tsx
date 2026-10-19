@@ -91,7 +91,7 @@ export const LogisticsPipelineHero: React.FC<LogisticsPipelineHeroProps> = ({
           <div className="bg-slate-50 rounded-lg p-2.5 border border-slate-200/80">
             <div className="text-[11px] font-medium text-slate-500">全クリニック発注</div>
             <div className="text-lg font-bold text-slate-900 mt-0.5">
-              {totalOrders} <span className="text-xs font-normal text-slate-500">院 / {totalUnits}箱</span>
+              {totalOrders} <span className="text-xs font-normal text-slate-500">件 / {totalUnits}点</span>
             </div>
           </div>
           <div className="bg-emerald-50 rounded-lg p-2.5 border border-emerald-200/80">
@@ -99,7 +99,7 @@ export const LogisticsPipelineHero: React.FC<LogisticsPipelineHeroProps> = ({
               <CheckCircle2 className="w-3 h-3 text-emerald-600" /> 配達完了
             </div>
             <div className="text-lg font-bold text-emerald-700 mt-0.5">
-              {deliveredCount} <span className="text-xs font-normal text-emerald-600">院 ({totalOrders ? Math.round((deliveredCount / totalOrders) * 100) : 0}%)</span>
+              {deliveredCount} <span className="text-xs font-normal text-emerald-600">件 ({totalOrders ? Math.round((deliveredCount / totalOrders) * 100) : 0}%)</span>
             </div>
           </div>
           <div className="bg-blue-50 rounded-lg p-2.5 border border-blue-200/80">
@@ -107,7 +107,7 @@ export const LogisticsPipelineHero: React.FC<LogisticsPipelineHeroProps> = ({
               <Truck className="w-3 h-3 text-blue-600" /> 国内配達中
             </div>
             <div className="text-lg font-bold text-blue-700 mt-0.5">
-              {deliveringCount} <span className="text-xs font-normal text-blue-600">院</span>
+              {deliveringCount} <span className="text-xs font-normal text-blue-600">件</span>
             </div>
           </div>
           <div className="bg-purple-50 rounded-lg p-2.5 border border-purple-200/80">
@@ -115,7 +115,7 @@ export const LogisticsPipelineHero: React.FC<LogisticsPipelineHeroProps> = ({
               <Plane className="w-3 h-3 text-purple-600" /> 国際輸送・通関
             </div>
             <div className="text-lg font-bold text-purple-700 mt-0.5">
-              {Math.max(0, totalOrders - deliveredCount - deliveringCount)} <span className="text-xs font-normal text-purple-600">院</span>
+              {Math.max(0, totalOrders - deliveredCount - deliveringCount)} <span className="text-xs font-normal text-purple-600">件</span>
             </div>
           </div>
         </div>
@@ -171,7 +171,7 @@ export const LogisticsPipelineHero: React.FC<LogisticsPipelineHeroProps> = ({
                         : 'bg-slate-100 text-slate-400'
                     }`}
                   >
-                    {count}院
+                    {count}件
                   </span>
                 </div>
 

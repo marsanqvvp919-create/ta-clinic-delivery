@@ -51,14 +51,11 @@ export default function App() {
   }, [selectedClinicId]);
 
   const selectedClinicOrders = useMemo(() => {
-    const list: OrderRecord[] = [];
-    Object.values(batchOrdersMap).forEach((batchList) => {
-      const found = batchList.find(
-        (o) => o.clinicId === selectedClinic.id || o.clinicName === selectedClinic.name
-      );
-      if (found) list.push(found);
-    });
-    return list;
+    // 個別受注のため、院宛の受注をすべて新しい順に並べる
+    return Object.values(batchOrdersMap)
+      .flat()
+      .filter((o) => o.clinicId === selectedClinic.id || o.clinicName === selectedClinic.name)
+      .sort((a, b) => b.orderDate.localeCompare(a.orderDate));
   }, [batchOrdersMap, selectedClinic]);
 
   // CSV Export handler
@@ -66,7 +63,7 @@ export default function App() {
     const headers = [
       '管理番号',
       'インボイス番号',
-      '発注便',
+      '受注月',
       '発注日',
       'クリニック名',
       '院長名',
@@ -109,7 +106,7 @@ export default function App() {
     link.href = url;
     link.setAttribute(
       'download',
-      `TA_配送状況一括_${currentBatch.id}_${new Date().toISOString().slice(0, 10)}.csv`
+      `TA_配送状況_${currentBatch.id}_${new Date().toISOString().slice(0, 10)}.csv`
     );
     document.body.appendChild(link);
     link.click();

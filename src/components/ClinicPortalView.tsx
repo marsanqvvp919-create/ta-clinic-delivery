@@ -37,7 +37,7 @@ export const ClinicPortalView: React.FC<ClinicPortalViewProps> = ({
   onOpenTracking,
   onOpenDeliverySlip,
 }) => {
-  const currentOrder = clinicOrders.find((o) => o.batchId === '2026-10') || clinicOrders[0];
+  const currentOrder = clinicOrders.find((o) => o.status !== 'DELIVERED') || clinicOrders[0];
   const pastOrders = clinicOrders.filter((o) => o.id !== currentOrder?.id);
 
   const currentStepObj = currentOrder
@@ -102,7 +102,7 @@ export const ClinicPortalView: React.FC<ClinicPortalViewProps> = ({
           <div className="bg-slate-800 text-white p-4 sm:p-5 flex flex-wrap items-center justify-between gap-3">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-sky-200 bg-slate-700 border border-slate-600 px-2 py-0.5 rounded">
-                最新配送便 (10月1日ご発注)
+                {isDelivered ? '最新のご注文' : '配送中のご注文'} (受注日 {currentOrder.orderDate.split(' ')[0]})
               </span>
               <h2 className="text-lg sm:text-xl font-bold mt-1 text-white">
                 自院宛 美容医療薬剤 配送状況
@@ -290,7 +290,7 @@ export const ClinicPortalView: React.FC<ClinicPortalViewProps> = ({
           当院宛 過去の納品伝票・発注履歴アーカイブ
         </h3>
         <p className="text-xs text-slate-500 mb-4">
-          過去に納品完了した定期便の伝票、インボイス、受領記録を確認・再印刷できます。
+          過去のご注文（受注ID別）の伝票、受領記録を確認・再印刷できます。
         </p>
 
         {clinicOrders.length === 0 ? (

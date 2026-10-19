@@ -55,10 +55,10 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
         <div>
           <div className="flex items-center gap-2 flex-wrap">
             <span className="inline-flex items-center gap-1 text-xs font-bold px-2 py-0.5 rounded bg-blue-500/20 text-cyan-300 border border-cyan-500/30">
-              <Sparkles className="w-3 h-3" /> 美容医療薬剤 一括配送
+              <Sparkles className="w-3 h-3" /> 美容医療薬剤 個別受注配送
             </span>
             <span className="text-xs text-indigo-300">
-              同一伝票一括連動・到着先空港分岐
+              受注ごとに個別出荷・成田着
             </span>
           </div>
           <h3 className="text-base sm:text-lg font-bold text-white mt-1.5 flex items-center gap-2">
@@ -78,7 +78,7 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
                   : 'text-slate-300 hover:text-white'
               }`}
             >
-              全空港 ({total}院)
+              全空港 ({total}件)
             </button>
             <button
               onClick={() => onSelectHubFilter('NRT')}
@@ -89,7 +89,7 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
               }`}
               title="成田国際空港経由: 北海道・東北・関東・中部"
             >
-              成田 NRT ({nrtOrders.length}院)
+              成田 NRT ({nrtOrders.length}件)
             </button>
             <button
               onClick={() => onSelectHubFilter('KIX')}
@@ -100,7 +100,7 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
               }`}
               title="関西国際空港経由: 近畿・中国・四国・九州・沖縄"
             >
-              関西 KIX ({kixOrders.length}院)
+              関西 KIX ({kixOrders.length}件)
             </button>
           </div>
 
@@ -132,7 +132,7 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
                 POINT 1
               </span>
               <span className="font-mono text-sm font-bold text-amber-300">
-                {counts.singapore} 院
+                {counts.singapore} 件
               </span>
             </div>
 
@@ -142,12 +142,12 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
               </div>
               <div>
                 <div className="text-xs font-bold text-white">🇸🇬 シンガポール調達ハブ</div>
-                <div className="text-[10px] text-slate-400">同一伝票 一括検品</div>
+                <div className="text-[10px] text-slate-400">受注ごと 検品</div>
               </div>
             </div>
 
             <div className="mt-2.5 pt-2 border-t border-slate-700/60 text-[10px] text-slate-300 leading-tight">
-              美容医療薬剤 製品検品・一括梱包完了
+              美容医療薬剤 製品検品・梱包完了
             </div>
           </div>
 
@@ -165,7 +165,7 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
                 POINT 2
               </span>
               <span className="font-mono text-sm font-bold text-purple-300">
-                {counts.fedexFlight} 院
+                {counts.fedexFlight} 件
               </span>
             </div>
 
@@ -198,7 +198,7 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
                 POINT 3 (空港分岐)
               </span>
               <span className="font-mono text-sm font-bold text-blue-300">
-                {counts.customsHub} 院
+                {counts.customsHub} 件
               </span>
             </div>
 
@@ -213,7 +213,7 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
             </div>
 
             <div className="mt-2.5 pt-2 border-t border-slate-700/60 text-[10px] text-slate-300 leading-tight">
-              成田(東日本{nrtOrders.length}院)・関空(西日本{kixOrders.length}院)の税関保税地区で厚労省薬事審査
+              成田 (NRT) 着 {nrtOrders.length}件。輸入確認（薬監）・輸入通関
             </div>
           </div>
 
@@ -231,7 +231,7 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
                 POINT 4
               </span>
               <span className="font-mono text-sm font-bold text-cyan-300">
-                {counts.sagawaCool} 院
+                {counts.sagawaCool} 件
               </span>
             </div>
 
@@ -264,7 +264,7 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
                 FINAL
               </span>
               <span className="font-mono text-sm font-bold text-emerald-300">
-                {counts.delivered} 院
+                {counts.delivered} 件
               </span>
             </div>
 
@@ -279,7 +279,7 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
             </div>
 
             <div className="mt-2.5 pt-2 border-t border-slate-700/60 text-[10px] text-slate-300 leading-tight">
-              各院受付にて美容医療薬剤検品受領印押印・受領完了
+              新宿・銀座 各院受付にて受領完了
             </div>
           </div>
         </div>

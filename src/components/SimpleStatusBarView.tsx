@@ -65,7 +65,7 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
         return {
           percent: 30,
           stageIdx: 0,
-          label: 'SG倉庫・韓国 梱包中',
+          label: '出荷待ち',
           color: 'bg-amber-500',
           textColor: 'text-amber-800',
         };
@@ -216,7 +216,9 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
   }, [orders]);
 
   const deliveredCount = orders.filter((o) => o.status === 'DELIVERED').length;
-  const inTransitCount = orders.length - deliveredCount;
+  // 楽々販売の「出荷待ち」（発送準備中以前）は配送中に含めない
+  const waitingCount = orders.filter((o) => o.status === 'ORDERED' || o.status === 'PREPARING').length;
+  const inTransitCount = orders.length - deliveredCount - waitingCount;
 
   return (
     <div className="space-y-4">
@@ -247,6 +249,14 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
                 <span className="text-slate-300">|</span>
                 <span className="text-blue-700 font-bold">
                   配送中: {inTransitCount} 件
+                </span>
+              </>
+            )}
+            {waitingCount > 0 && (
+              <>
+                <span className="text-slate-300">|</span>
+                <span className="text-amber-700 font-bold">
+                  出荷待ち: {waitingCount} 件
                 </span>
               </>
             )}

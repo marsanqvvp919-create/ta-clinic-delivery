@@ -76,7 +76,7 @@ export const OrderFilterBar: React.FC<OrderFilterBarProps> = ({
             type="text"
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
-            placeholder="クリニック名、院長名、追跡番号(FedEx/佐川)、インボイス番号、住所で検索..."
+            placeholder="クリニック名、院長名、追跡番号(FedEx・DHL/佐川)、インボイス番号、住所で検索..."
             className="w-full pl-9 pr-8 py-2 bg-slate-50 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all text-slate-800 placeholder-slate-400"
           />
           {searchQuery && (

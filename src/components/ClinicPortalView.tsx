@@ -145,7 +145,7 @@ export const ClinicPortalView: React.FC<ClinicPortalViewProps> = ({
                     {currentStepObj.desc}
                   </h3>
                   <p className="text-xs text-slate-600 mt-0.5">
-                    シンガポール出荷 ➔ FedEx国際空輸 ➔ {currentOrder.hubName} ➔ 佐川急便
+                    SG倉庫・韓国 ➔ {currentOrder.intlCarrier}国際空輸 ➔ {currentOrder.hubName} ➔ 国内配送
                   </p>
                 </div>
               </div>
@@ -169,10 +169,10 @@ export const ClinicPortalView: React.FC<ClinicPortalViewProps> = ({
                 <div className="text-xs font-bold text-purple-900 flex items-center justify-between">
                   <span className="flex items-center gap-1.5">
                     <Plane className="w-4 h-4 text-purple-600" />
-                    FedEx 国際航空便追跡 (シンガポール発)
+                    {currentOrder.intlCarrier} 国際航空便追跡
                   </span>
                   <span className="text-[10px] bg-purple-200 text-purple-800 px-1.5 py-0.5 rounded font-mono">
-                    FX5288便
+                    {currentOrder.intlCarrier} Express
                   </span>
                 </div>
                 <div className="mt-2 text-lg font-black font-mono text-purple-950">
@@ -186,7 +186,7 @@ export const ClinicPortalView: React.FC<ClinicPortalViewProps> = ({
                     rel="noopener noreferrer"
                     className="text-purple-800 font-bold hover:underline flex items-center gap-1"
                   >
-                    FedEx公式サイトで追跡 <ExternalLink className="w-3.5 h-3.5" />
+                    {currentOrder.intlCarrier}公式サイトで追跡 <ExternalLink className="w-3.5 h-3.5" />
                   </a>
                 </div>
               </div>
@@ -313,7 +313,7 @@ export const ClinicPortalView: React.FC<ClinicPortalViewProps> = ({
                     <span>•</span>
                     <span>数量: {ord.totalQty}箱</span>
                     <span>•</span>
-                    <span className="font-mono text-purple-700">FedEx: {ord.fedexTracking}</span>
+                    <span className="font-mono text-purple-700">{ord.intlCarrier}: {ord.fedexTracking}</span>
                   </div>
                 </div>
 

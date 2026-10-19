@@ -57,7 +57,7 @@ export const BatchDetailsModal: React.FC<BatchDetailsModalProps> = ({
   const deliveredCount = orders.filter((o) => o.status === 'DELIVERED').length;
 
   const handleExportBatchCsv = () => {
-    const headers = ['発注ID', 'クリニック名', 'エリア', '担当医', '数量(箱)', 'ステータス', 'FedEx番号', '佐川番号', '納品予定日'];
+    const headers = ['発注ID', 'クリニック名', 'エリア', '担当医', '数量(箱)', 'ステータス', '国際便業者', '国際便追跡番号', '佐川番号', '納品予定日'];
     const rows = orders.map((o) => [
       `"${o.id}"`,
       `"${o.clinicName}"`,
@@ -65,6 +65,7 @@ export const BatchDetailsModal: React.FC<BatchDetailsModalProps> = ({
       `"${o.doctor}"`,
       o.totalQty,
       `"${o.status}"`,
+      `"${o.intlCarrier}"`,
       `"${o.fedexTracking}"`,
       `"${o.sagawaTracking}"`,
       `"${o.actualDelivery || o.estimatedDelivery || ''}"`,
@@ -156,7 +157,7 @@ export const BatchDetailsModal: React.FC<BatchDetailsModalProps> = ({
                     <th className="py-3 px-4">担当医</th>
                     <th className="py-3 px-4 text-center">数量</th>
                     <th className="py-3 px-4">配送ステータス</th>
-                    <th className="py-3 px-4">追跡番号 (FedEx / 佐川)</th>
+                    <th className="py-3 px-4">追跡番号 (FedEx・DHL / 佐川)</th>
                     <th className="py-3 px-4">納品予定 / 完了日</th>
                     <th className="py-3 px-4 text-right">アクション</th>
                   </tr>
@@ -200,7 +201,7 @@ export const BatchDetailsModal: React.FC<BatchDetailsModalProps> = ({
                         <td className="py-3.5 px-4">
                           <div className="space-y-1">
                             <div className="flex items-center gap-1.5">
-                              <span className="text-[10px] text-slate-400 font-semibold w-12">FedEx:</span>
+                              <span className="text-[10px] text-slate-400 font-semibold w-12">{order.intlCarrier}:</span>
                               <a
                                 href={getFedexTrackingUrl(order.fedexTracking)}
                                 target="_blank"

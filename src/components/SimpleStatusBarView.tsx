@@ -65,7 +65,7 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
         return {
           percent: 30,
           stageIdx: 0,
-          label: 'シンガポール梱包中',
+          label: 'SG倉庫・韓国 梱包中',
           color: 'bg-amber-500',
           textColor: 'text-amber-800',
         };
@@ -73,7 +73,7 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
         return {
           percent: 45,
           stageIdx: 1,
-          label: 'FedEx シンガポール集荷済',
+          label: '国際便 集荷済',
           color: 'bg-purple-500',
           textColor: 'text-purple-800',
         };
@@ -81,7 +81,7 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
         return {
           percent: 60,
           stageIdx: 1,
-          label: 'FedEx 国際航空輸送中',
+          label: '国際航空輸送中',
           color: 'bg-indigo-500',
           textColor: 'text-indigo-800',
         };
@@ -130,7 +130,7 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
 
   const STAGES_HEADER = [
     { label: '① SG発注・梱包', desc: 'シンガポール' },
-    { label: '② FedEx国際空輸', desc: '航空便輸送' },
+    { label: '② FedEx・DHL 国際空輸', desc: '航空便輸送' },
     { label: '③ 日本通関審査', desc: '成田 / 関西保税' },
     { label: '④ 佐川急便', desc: '国内配送' },
     { label: '⑤ クリニック納品', desc: '受領完了' },
@@ -508,7 +508,7 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
                         rel="noopener noreferrer"
                         className="text-purple-700 hover:underline font-mono flex items-center gap-0.5"
                       >
-                        FedEx: {order.fedexTracking}
+                        {order.intlCarrier}: {order.fedexTracking}
                         <ExternalLink className="w-2.5 h-2.5" />
                       </a>
                       <span className="text-amber-700 font-mono flex items-center gap-0.5">佐川: メンテナンス中</span>
@@ -524,7 +524,7 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
                         ) : (
                           <Clock className="w-4 h-4 text-blue-600" />
                         )}
-                        {info.label}
+                        {info.stageIdx === 1 ? `${order.intlCarrier} ${info.label}` : info.label}
                       </span>
                       <span className="font-mono font-bold text-slate-700">
                         {info.percent}%
@@ -549,7 +549,7 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
                         ①SG梱包
                       </span>
                       <span className={info.stageIdx >= 1 ? 'text-slate-800 font-bold' : ''}>
-                        ②FedEx
+                        ②{order.intlCarrier}
                       </span>
                       <span className={info.stageIdx >= 2 ? 'text-slate-800 font-bold' : ''}>
                         ③通関

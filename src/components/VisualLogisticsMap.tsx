@@ -174,8 +174,8 @@ export const VisualLogisticsMap: React.FC<VisualLogisticsMapProps> = ({
                 <Plane className="w-4 h-4" />
               </div>
               <div>
-                <div className="text-xs font-bold text-white">✈️ FedEx 国際航空輸送</div>
-                <div className="text-[10px] text-purple-300">FX5288便 / FX5290便</div>
+                <div className="text-xs font-bold text-white">✈️ FedEx・DHL 国際航空輸送</div>
+                <div className="text-[10px] text-purple-300">SG・韓国 ➔ 成田 (NRT)</div>
               </div>
             </div>
 

@@ -140,7 +140,7 @@ export const TrackingTimelineModal: React.FC<TrackingTimelineModalProps> = ({
               <div className="flex items-center justify-between text-xs font-bold text-purple-900">
                 <span className="flex items-center gap-1.5">
                   <Plane className="w-4 h-4 text-purple-700" />
-                  FedEx 国際航空輸送
+                  {order.intlCarrier} 国際航空輸送
                 </span>
                 <span className="text-[10px] bg-purple-200/80 text-purple-900 px-1.5 py-0.5 rounded font-mono">
                   SIN ➔ {order.hub}
@@ -169,7 +169,7 @@ export const TrackingTimelineModal: React.FC<TrackingTimelineModalProps> = ({
                     rel="noopener noreferrer"
                     className="text-purple-700 hover:text-purple-900 font-bold flex items-center gap-1 hover:underline"
                   >
-                    FedEx公式追跡 ➔
+                    {order.intlCarrier}公式追跡 ➔
                   </a>
                 )}
               </div>
@@ -313,7 +313,7 @@ export const TrackingTimelineModal: React.FC<TrackingTimelineModalProps> = ({
         {/* Modal Footer */}
         <div className="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-2">
           <div className="text-xs text-slate-500">
-            ※ 国際空輸: FedEx Express / 国内配送: 佐川急便
+            ※ 国際空輸: FedEx / DHL Express / 国内配送: 佐川急便（追跡メンテナンス中）
           </div>
           <button
             onClick={onClose}

@@ -72,7 +72,8 @@ export default function App() {
       '電話番号',
       '入港空港',
       'ステータス',
-      'FedEx追跡番号',
+      '国際便業者',
+      '国際便追跡番号',
       '佐川急便追跡番号',
       '総数量',
       '到着予定/完了日'
@@ -92,6 +93,7 @@ export default function App() {
         `"${o.tel}"`,
         `"${o.hub}"`,
         `"${step}"`,
+        `"${o.intlCarrier}"`,
         `"${o.fedexTracking}"`,
         `"${o.sagawaTracking}"`,
         o.totalQty,

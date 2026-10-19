@@ -130,7 +130,7 @@ export const DeliverySlipModal: React.FC<DeliverySlipModalProps> = ({
 
                 <div className="mt-2.5 pt-2 border-t border-slate-200 space-y-1">
                   <div className="flex items-center justify-between">
-                    <span className="text-purple-700 font-medium">FedEx 国際航空便:</span>
+                    <span className="text-purple-700 font-medium">{order.intlCarrier} 国際航空便:</span>
                     <span className="font-mono font-bold text-slate-900">
                       {order.fedexTracking || 'N/A'}
                     </span>

@@ -60,7 +60,7 @@ export const OrdersTable: React.FC<OrdersTableProps> = ({
         </div>
         <div className="flex items-center gap-3 text-[11px] text-slate-500">
           <span className="flex items-center gap-1">
-            <span className="w-2 h-2 rounded-full bg-purple-500"></span> FedEx国際追跡
+            <span className="w-2 h-2 rounded-full bg-purple-500"></span> FedEx・DHL 国際追跡
           </span>
           <span className="flex items-center gap-1">
             <span className="w-2 h-2 rounded-full bg-cyan-500"></span> 佐川急便追跡
@@ -77,7 +77,7 @@ export const OrdersTable: React.FC<OrdersTableProps> = ({
               <th className="py-3 px-3.5">お届け先クリニック・院長</th>
               <th className="py-3 px-3.5">発注品目・数量</th>
               <th className="py-3 px-3.5 min-w-[200px]">配送ステータス（進捗）</th>
-              <th className="py-3 px-3.5 whitespace-nowrap">追跡番号 (FedEx / 佐川)</th>
+              <th className="py-3 px-3.5 whitespace-nowrap">追跡番号 (FedEx・DHL / 佐川)</th>
               <th className="py-3 px-3.5 whitespace-nowrap">到着予定 / 完了</th>
               <th className="py-3 px-3.5 text-center whitespace-nowrap">操作</th>
             </tr>
@@ -198,7 +198,7 @@ export const OrdersTable: React.FC<OrdersTableProps> = ({
                       {/* FedEx */}
                       <div className="flex items-center gap-1.5">
                         <span className="w-14 text-[10px] font-bold text-purple-700 bg-purple-50 px-1 py-0.5 rounded border border-purple-200 text-center">
-                          FedEx
+                          {order.intlCarrier}
                         </span>
                         {order.fedexTracking ? (
                           <a
@@ -206,7 +206,7 @@ export const OrdersTable: React.FC<OrdersTableProps> = ({
                             target="_blank"
                             rel="noopener noreferrer"
                             className="font-mono text-purple-700 hover:text-purple-900 font-semibold hover:underline flex items-center gap-0.5"
-                            title="FedEx公式追跡サイトを新しいタブで開く"
+                            title={`${order.intlCarrier}公式追跡サイトを新しいタブで開く`}
                           >
                             {order.fedexTracking}
                             <ExternalLink className="w-3 h-3 text-purple-400" />

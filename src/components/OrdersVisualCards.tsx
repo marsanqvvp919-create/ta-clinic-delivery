@@ -153,7 +153,7 @@ export const OrdersVisualCards: React.FC<OrdersVisualCardsProps> = ({
                     }`}
                   >
                     <span>✈️</span>
-                    <span className="text-[9px] mt-0.5">FedEx</span>
+                    <span className="text-[9px] mt-0.5">{order.intlCarrier}</span>
                   </div>
 
                   {/* Point 3: Customs */}
@@ -217,7 +217,7 @@ export const OrdersVisualCards: React.FC<OrdersVisualCardsProps> = ({
                 {/* FedEx */}
                 <div className="flex items-center justify-between">
                   <span className="text-[10px] font-bold text-purple-700 bg-purple-50 px-1.5 py-0.5 rounded border border-purple-200">
-                    FedEx追跡
+                    {order.intlCarrier}追跡
                   </span>
                   <a
                     href={getFedexTrackingUrl(order.fedexTracking)}

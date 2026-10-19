@@ -4,7 +4,6 @@ import {
   OrderRecord,
   STATUS_STEPS,
   getFedexTrackingUrl,
-  getSagawaTrackingUrl
 } from '../data/clinicsData';
 import {
   Hospital,
@@ -200,18 +199,11 @@ export const ClinicPortalView: React.FC<ClinicPortalViewProps> = ({
                   </span>
                 </div>
                 <div className="mt-2 text-lg font-black font-mono text-cyan-950">
-                  {currentOrder.sagawaTracking}
+                  メンテナンス中
                 </div>
                 <div className="mt-2 pt-2 border-t border-cyan-200 flex items-center justify-between text-xs">
                   <span className="text-cyan-700 text-[11px]">{currentOrder.hubName}引継済</span>
-                  <a
-                    href={getSagawaTrackingUrl(currentOrder.sagawaTracking)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-cyan-800 font-bold hover:underline flex items-center gap-1"
-                  >
-                    佐川急便サイトで追跡 <ExternalLink className="w-3.5 h-3.5" />
-                  </a>
+                  <span className="text-amber-700 font-bold text-[11px]">佐川急便の追跡はメンテナンス中です</span>
                 </div>
               </div>
             </div>

@@ -341,7 +341,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "FEDEX_DISPATCHED",
       "fedexTracking": "4293868655",
-      "sagawaTracking": "4293868655",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/10/23",
       "actualDelivery": null,
       "recipientName": null,
@@ -410,7 +410,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "FEDEX_DISPATCHED",
       "fedexTracking": "4293712220",
-      "sagawaTracking": "105994850568",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/10/23",
       "actualDelivery": null,
       "recipientName": null,
@@ -472,7 +472,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "7785365593",
-      "sagawaTracking": "329748831678",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/10/19",
       "actualDelivery": "2026/10/19 11:20",
       "recipientName": "嶽崎 元彦",
@@ -529,7 +529,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/10/16 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 329748831678)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -597,7 +597,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "1251881046",
-      "sagawaTracking": "294875039428",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/10/05",
       "actualDelivery": "2026/10/05 11:20",
       "recipientName": "嶽崎 元彦",
@@ -640,7 +640,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/10/04 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 294875039428)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -706,7 +706,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "6795458950",
-      "sagawaTracking": "512789239779",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/10/05",
       "actualDelivery": "2026/10/05 11:20",
       "recipientName": "嶽崎 元彦",
@@ -756,7 +756,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/09/28 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 512789239779)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -822,7 +822,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "1161140676",
-      "sagawaTracking": "294875039428",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/10/02",
       "actualDelivery": "2026/10/02 11:20",
       "recipientName": "嶽崎 元彦",
@@ -872,7 +872,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/10/01 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 294875039428)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -940,7 +940,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "1318559782",
-      "sagawaTracking": "919743446577",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/09/01",
       "actualDelivery": "2026/09/01 11:20",
       "recipientName": "嶽崎 元彦",
@@ -976,7 +976,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/08/31 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 919743446577)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -1042,7 +1042,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "875910661840",
-      "sagawaTracking": "150242314572",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/08/22",
       "actualDelivery": "2026/08/22 11:20",
       "recipientName": "嶽崎 元彦",
@@ -1092,7 +1092,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/08/21 15:00",
           "location": "FedEx 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 150242314572)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "FedEx 国内配送"
         },
         {
@@ -1160,7 +1160,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "2855854940",
-      "sagawaTracking": "559339646212",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/08/09",
       "actualDelivery": "2026/08/09 11:20",
       "recipientName": "嶽崎 元彦",
@@ -1224,7 +1224,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/08/08 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 559339646212)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -1290,7 +1290,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "3066915963",
-      "sagawaTracking": "608233622469",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/08/31",
       "actualDelivery": "2026/08/31 11:20",
       "recipientName": "嶽崎 元彦",
@@ -1333,7 +1333,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/08/30 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 608233622469)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -1399,7 +1399,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "2855854940",
-      "sagawaTracking": "559339646212",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/09/03",
       "actualDelivery": "2026/09/03 11:20",
       "recipientName": "嶽崎 元彦",
@@ -1477,7 +1477,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/09/02 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 559339646212)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -1543,7 +1543,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "875223127326",
-      "sagawaTracking": "450502233355",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/08/21",
       "actualDelivery": "2026/08/21 11:20",
       "recipientName": "嶽崎 元彦",
@@ -1586,7 +1586,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/08/20 15:00",
           "location": "FedEx 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 450502233355)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "FedEx 国内配送"
         },
         {
@@ -1654,7 +1654,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "1643311132",
-      "sagawaTracking": "032840995635",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/08/26",
       "actualDelivery": "2026/08/26 11:20",
       "recipientName": "嶽崎 元彦",
@@ -1718,7 +1718,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/08/25 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 032840995635)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -1784,7 +1784,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "875910661840",
-      "sagawaTracking": "144251560627",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/08/22",
       "actualDelivery": "2026/08/22 11:20",
       "recipientName": "嶽崎 元彦",
@@ -1834,7 +1834,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/08/21 15:00",
           "location": "FedEx 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 144251560627)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "FedEx 国内配送"
         },
         {
@@ -1900,7 +1900,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "8804543091",
-      "sagawaTracking": "032840995635",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/08/26",
       "actualDelivery": "2026/08/26 11:20",
       "recipientName": "嶽崎 元彦",
@@ -1950,7 +1950,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/08/25 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 032840995635)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -2016,7 +2016,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "9412718100",
-      "sagawaTracking": "144251560627",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/06/28",
       "actualDelivery": "2026/06/28 11:20",
       "recipientName": "嶽崎 元彦",
@@ -2080,7 +2080,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/06/27 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 144251560627)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -2146,7 +2146,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "875707467060",
-      "sagawaTracking": "032840995635",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/08/17",
       "actualDelivery": "2026/08/17 11:20",
       "recipientName": "嶽崎 元彦",
@@ -2217,7 +2217,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/08/16 15:00",
           "location": "FedEx 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 032840995635)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "FedEx 国内配送"
         },
         {
@@ -2285,7 +2285,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "4758862207",
-      "sagawaTracking": "350953756174",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/08/22",
       "actualDelivery": "2026/08/22 11:20",
       "recipientName": "嶽崎 元彦",
@@ -2349,7 +2349,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/08/21 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 350953756174)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -2415,7 +2415,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "8438167975",
-      "sagawaTracking": "794963919946",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/07/20",
       "actualDelivery": "2026/07/20 11:20",
       "recipientName": "嶽崎 元彦",
@@ -2507,7 +2507,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/07/19 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 794963919946)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -2575,7 +2575,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "3596531948",
-      "sagawaTracking": "846248181370",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/06/29",
       "actualDelivery": "2026/06/29 11:20",
       "recipientName": "嶽崎 元彦",
@@ -2653,7 +2653,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/06/28 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 846248181370)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -2719,7 +2719,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "7685330147",
-      "sagawaTracking": "692137351915",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/05/12",
       "actualDelivery": "2026/05/12 11:20",
       "recipientName": "嶽崎 元彦",
@@ -2762,7 +2762,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/05/11 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 692137351915)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -2828,7 +2828,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "3596531948",
-      "sagawaTracking": "846248181370",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/06/24",
       "actualDelivery": "2026/06/24 11:20",
       "recipientName": "嶽崎 元彦",
@@ -2913,7 +2913,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/06/23 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 846248181370)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -2979,7 +2979,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "7685330147",
-      "sagawaTracking": "692137351915",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/05/15",
       "actualDelivery": "2026/05/15 11:20",
       "recipientName": "嶽崎 元彦",
@@ -3043,7 +3043,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/05/14 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 692137351915)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -3109,7 +3109,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "3596531948",
-      "sagawaTracking": "846248181370",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/05/30",
       "actualDelivery": "2026/05/30 11:20",
       "recipientName": "嶽崎 元彦",
@@ -3166,7 +3166,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/05/29 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 846248181370)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -3234,7 +3234,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "9930027370",
-      "sagawaTracking": "185067316357",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/05/26",
       "actualDelivery": "2026/05/26 11:20",
       "recipientName": "嶽崎 元彦",
@@ -3298,7 +3298,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/05/25 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 185067316357)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -3364,7 +3364,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "5342217136",
-      "sagawaTracking": "619612398371",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/05/15",
       "actualDelivery": "2026/05/15 11:20",
       "recipientName": "嶽崎 元彦",
@@ -3421,7 +3421,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/05/14 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 619612398371)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -3487,7 +3487,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "9930027370",
-      "sagawaTracking": "185067316357",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/05/30",
       "actualDelivery": "2026/05/30 11:20",
       "recipientName": "嶽崎 元彦",
@@ -3544,7 +3544,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/05/29 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 185067316357)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -3610,7 +3610,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "5342217136",
-      "sagawaTracking": "619612398371",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/06/29",
       "actualDelivery": "2026/06/29 11:20",
       "recipientName": "嶽崎 元彦",
@@ -3667,7 +3667,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/06/28 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 619612398371)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -3733,7 +3733,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "9930027370",
-      "sagawaTracking": "185067316357",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/05/30",
       "actualDelivery": "2026/05/30 11:20",
       "recipientName": "嶽崎 元彦",
@@ -3790,7 +3790,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/05/29 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 185067316357)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -3856,7 +3856,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "5342217136",
-      "sagawaTracking": "619612398371",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/03/15",
       "actualDelivery": "2026/03/15 11:20",
       "recipientName": "嶽崎 元彦",
@@ -3892,7 +3892,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/03/14 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 619612398371)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -3960,7 +3960,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "3042228590",
-      "sagawaTracking": "448690750143",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/04/21",
       "actualDelivery": "2026/04/21 11:20",
       "recipientName": "嶽崎 元彦",
@@ -4017,7 +4017,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/04/20 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 448690750143)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -4083,7 +4083,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "3954768288",
-      "sagawaTracking": "179961275419",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/04/14",
       "actualDelivery": "2026/04/14 11:20",
       "recipientName": "嶽崎 元彦",
@@ -4140,7 +4140,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/04/13 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 179961275419)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {
@@ -4206,7 +4206,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
       "hubName": "成田国際空港 (NRT)",
       "status": "DELIVERED",
       "fedexTracking": "3042228590",
-      "sagawaTracking": "448690750143",
+      "sagawaTracking": "メンテナンス中",
       "estimatedDelivery": "2026/03/01",
       "actualDelivery": "2026/03/01 11:20",
       "recipientName": "嶽崎 元彦",
@@ -4249,7 +4249,7 @@ export const ALL_ORDERS: Record<string, OrderRecord[]> = {
           "time": "2026/02/28 15:00",
           "location": "DHL 成田ゲートウェイ",
           "title": "通関完了・国内配送引継",
-          "desc": "輸入通関許可。国内配送へ引継 (国内追跡番号: 448690750143)",
+          "desc": "輸入通関許可。国内配送へ引継 (佐川急便 追跡: メンテナンス中)",
           "operator": "DHL 国内配送"
         },
         {

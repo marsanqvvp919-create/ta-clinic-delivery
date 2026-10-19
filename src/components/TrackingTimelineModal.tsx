@@ -4,7 +4,6 @@ import {
   STATUS_STEPS,
   OrderStatus,
   getFedexTrackingUrl,
-  getSagawaTrackingUrl
 } from '../data/clinicsData';
 import {
   X,
@@ -186,32 +185,15 @@ export const TrackingTimelineModal: React.FC<TrackingTimelineModalProps> = ({
               </div>
               <div className="mt-2 flex items-center justify-between gap-2">
                 <div className="font-mono text-base font-bold text-cyan-950 tracking-wider">
-                  {order.sagawaTracking || '通関後発番'}
+                  メンテナンス中
                 </div>
-                {order.sagawaTracking && (
-                  <button
-                    onClick={() => copyToClipboard(order.sagawaTracking, 'sagawa')}
-                    className="p-1 text-cyan-700 hover:text-cyan-900 hover:bg-cyan-100 rounded transition-colors"
-                    title="送り状番号をコピー"
-                  >
-                    {copiedSagawa ? <Check className="w-4 h-4 text-emerald-600" /> : <Copy className="w-4 h-4" />}
-                  </button>
-                )}
+                
               </div>
               <div className="mt-2 pt-2 border-t border-cyan-200/70 flex items-center justify-between text-xs">
                 <span className="text-cyan-700 text-[11px]">
                   {order.hubName}引継ぎ
                 </span>
-                {order.sagawaTracking && (
-                  <a
-                    href={getSagawaTrackingUrl(order.sagawaTracking)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-cyan-800 hover:text-cyan-950 font-bold flex items-center gap-1 hover:underline"
-                  >
-                    佐川公式追跡 ➔
-                  </a>
-                )}
+                <span className="text-amber-700 font-bold text-[11px]">佐川急便の追跡はメンテナンス中です</span>
               </div>
             </div>
           </div>

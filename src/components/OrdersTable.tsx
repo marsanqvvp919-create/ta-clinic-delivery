@@ -4,7 +4,6 @@ import {
   STATUS_STEPS,
   OrderStatus,
   getFedexTrackingUrl,
-  getSagawaTrackingUrl
 } from '../data/clinicsData';
 import {
   ExternalLink,
@@ -222,20 +221,7 @@ export const OrdersTable: React.FC<OrdersTableProps> = ({
                         <span className="w-14 text-[10px] font-bold text-cyan-700 bg-cyan-50 px-1 py-0.5 rounded border border-cyan-200 text-center">
                           佐川急便
                         </span>
-                        {order.sagawaTracking ? (
-                          <a
-                            href={getSagawaTrackingUrl(order.sagawaTracking)}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="font-mono text-cyan-800 hover:text-cyan-950 font-semibold hover:underline flex items-center gap-0.5"
-                            title="佐川急便公式お荷物問い合わせを新しいタブで開く"
-                          >
-                            {order.sagawaTracking}
-                            <ExternalLink className="w-3 h-3 text-cyan-500" />
-                          </a>
-                        ) : (
-                          <span className="text-slate-400 font-mono">通関後発番</span>
-                        )}
+                        <span className="font-bold text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded text-[11px]">メンテナンス中</span>
                       </div>
                     </div>
                   </td>

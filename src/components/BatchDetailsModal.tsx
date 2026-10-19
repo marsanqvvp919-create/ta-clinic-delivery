@@ -3,7 +3,6 @@ import {
   OrderRecord,
   BATCHES_LIST,
   getFedexTrackingUrl,
-  getSagawaTrackingUrl
 } from '../data/clinicsData';
 import {
   X,
@@ -214,15 +213,7 @@ export const BatchDetailsModal: React.FC<BatchDetailsModalProps> = ({
                             </div>
                             <div className="flex items-center gap-1.5">
                               <span className="text-[10px] text-slate-400 font-semibold w-12">佐川:</span>
-                              <a
-                                href={getSagawaTrackingUrl(order.sagawaTracking)}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="text-indigo-600 hover:underline flex items-center gap-1 font-bold"
-                              >
-                                {order.sagawaTracking}
-                                <ExternalLink className="w-3 h-3" />
-                              </a>
+                              <span className="font-bold text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded text-[11px]">メンテナンス中</span>
                             </div>
                           </div>
                         </td>

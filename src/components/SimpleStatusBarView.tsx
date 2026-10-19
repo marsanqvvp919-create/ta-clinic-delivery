@@ -4,7 +4,6 @@ import {
   OrderStatus,
   CLINICS_MASTER,
   getFedexTrackingUrl,
-  getSagawaTrackingUrl
 } from '../data/clinicsData';
 import {
   Search,
@@ -512,15 +511,7 @@ export const SimpleStatusBarView: React.FC<SimpleStatusBarViewProps> = ({
                         FedEx: {order.fedexTracking}
                         <ExternalLink className="w-2.5 h-2.5" />
                       </a>
-                      <a
-                        href={getSagawaTrackingUrl(order.sagawaTracking)}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-cyan-700 hover:underline font-mono flex items-center gap-0.5"
-                      >
-                        佐川: {order.sagawaTracking}
-                        <ExternalLink className="w-2.5 h-2.5" />
-                      </a>
+                      <span className="text-amber-700 font-mono flex items-center gap-0.5">佐川: メンテナンス中</span>
                     </div>
                   </div>
 

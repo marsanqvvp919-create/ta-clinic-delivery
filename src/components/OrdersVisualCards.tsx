@@ -4,7 +4,6 @@ import {
   STATUS_STEPS,
   OrderStatus,
   getFedexTrackingUrl,
-  getSagawaTrackingUrl
 } from '../data/clinicsData';
 import {
   ExternalLink,
@@ -236,15 +235,7 @@ export const OrdersVisualCards: React.FC<OrdersVisualCardsProps> = ({
                   <span className="text-[10px] font-bold text-cyan-700 bg-cyan-50 px-1.5 py-0.5 rounded border border-cyan-200">
                     佐川急便
                   </span>
-                  <a
-                    href={getSagawaTrackingUrl(order.sagawaTracking)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-mono text-cyan-800 hover:text-cyan-950 font-semibold hover:underline flex items-center gap-0.5 text-[11px]"
-                  >
-                    {order.sagawaTracking}
-                    <ExternalLink className="w-3 h-3 text-cyan-400" />
-                  </a>
+                  <span className="font-bold text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded text-[11px]">メンテナンス中</span>
                 </div>
               </div>
             </div>
